@@ -1,0 +1,68 @@
+{
+  "updated_at": "2026-07-15T14:27:58+09:00",
+  "as_of_date": "2026-07-15",
+  "adr_per_share": 10,
+  "symbols": {
+    "adr": "SKHY",
+    "stock": "000660.KS",
+    "fx": "KRW=X"
+  },
+  "zones": {
+    "premium_hi": 3.0,
+    "premium": 1.0,
+    "discount": -1.0,
+    "discount_hi": -3.0
+  },
+  "current": {
+    "stock_krw": 2121000.0,
+    "adr_usd": 193.92,
+    "usdkrw": 1490.61,
+    "adr_krw": 2890590.8563,
+    "adr_fair_usd": 142.2907,
+    "gap_pct": 36.2843,
+    "zone": "premium_hi"
+  },
+  "stats": {
+    "window": 4,
+    "mean": 31.975,
+    "std": 13.543,
+    "zscore": 0.32,
+    "percentile": 75.0,
+    "min": 16.059,
+    "max": 51.821
+  },
+  "series": [
+    {
+      "date": "2026-07-10",
+      "stock_krw": 2180000.0,
+      "adr_usd": 168.01,
+      "usdkrw": 1505.91,
+      "adr_krw": 2530079.3657,
+      "gap_pct": 16.0587
+    },
+    {
+      "date": "2026-07-13",
+      "stock_krw": 1845000.0,
+      "adr_usd": 152.35,
+      "usdkrw": 1498.48,
+      "adr_krw": 2282934.3417,
+      "gap_pct": 23.7363
+    },
+    {
+      "date": "2026-07-14",
+      "stock_krw": 1913000.0,
+      "adr_usd": 193.92,
+      "usdkrw": 1497.7,
+      "adr_krw": 2904339.7179,
+      "gap_pct": 51.8212
+    },
+    {
+      "date": "2026-07-15",
+      "stock_krw": 2121000.0,
+      "adr_usd": 193.92,
+      "usdkrw": 1490.61,
+      "adr_krw": 2890590.8563,
+      "gap_pct": 36.2843
+    }
+  ]
+}
