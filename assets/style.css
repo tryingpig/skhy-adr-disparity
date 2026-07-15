@@ -108,6 +108,23 @@ a { color: inherit; text-decoration: none; }
 .bg-discount    { background: var(--discount-bg); }
 .bg-discount_hi { background: var(--discount_hi-bg); }
 
+/* ── 비교 카드 ────────────────────────────────────────── */
+.compare-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.cmp-card { background: var(--bg-elev); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+.cmp-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.cmp-name { font-size: 16px; font-weight: 800; }
+.cmp-syms { font-family: var(--mono); font-size: 11px; color: var(--text-faint); }
+.cmp-gap { font-size: 42px; font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; margin: 10px 0 8px; }
+.cmp-state { display: flex; align-items: center; gap: 10px; }
+.cmp-dir { font-size: 13px; color: var(--text-dim); }
+.cmp-sub { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 12px; font-size: 12.5px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+.cmp-stats { margin-top: 8px; font-size: 12px; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+
+/* ── 종목별 상세 카드 ─────────────────────────────────── */
+.asset-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; padding-left: 12px; }
+.asset-name { font-size: 19px; font-weight: 800; margin-right: 10px; }
+.asset-syms { font-family: var(--mono); font-size: 11.5px; color: var(--text-faint); }
+
 /* ── 기간 토글 ────────────────────────────────────────── */
 .range-toggle { display: flex; gap: 6px; flex-wrap: wrap; }
 .range-toggle button {

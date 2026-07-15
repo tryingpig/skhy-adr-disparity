@@ -1,12 +1,17 @@
 {
-  "updated_at": "2026-07-15T14:27:58+09:00",
-  "as_of_date": "2026-07-15",
+  "id": "skhy",
+  "name_ko": "SK하이닉스",
+  "adr_symbol": "SKHY",
+  "stock_symbol": "000660.KS",
+  "fx_symbol": "KRW=X",
   "adr_per_share": 10,
-  "symbols": {
-    "adr": "SKHY",
-    "stock": "000660.KS",
-    "fx": "KRW=X"
-  },
+  "ccy": "KRW",
+  "ccy_symbol": "₩",
+  "ccy_decimals": 0,
+  "market": "KOSPI",
+  "note": "1 ADS = 보통주 1/10주 (SEC Form 424B4)",
+  "updated_at": "2026-07-15T14:49:11+09:00",
+  "as_of_date": "2026-07-15",
   "zones": {
     "premium_hi": 3.0,
     "premium": 1.0,
@@ -14,19 +19,19 @@
     "discount_hi": -3.0
   },
   "current": {
-    "stock_krw": 2121000.0,
+    "stock_local": 2085000.0,
     "adr_usd": 193.92,
-    "usdkrw": 1490.61,
-    "adr_krw": 2890590.8563,
-    "adr_fair_usd": 142.2907,
-    "gap_pct": 36.2843,
+    "fx": 1484.88,
+    "adr_local": 2879479.2783,
+    "adr_fair_usd": 140.4154,
+    "gap_pct": 38.1045,
     "zone": "premium_hi"
   },
   "stats": {
     "window": 4,
-    "mean": 31.975,
-    "std": 13.543,
-    "zscore": 0.32,
+    "mean": 32.43,
+    "std": 13.71,
+    "zscore": 0.41,
     "percentile": 75.0,
     "min": 16.059,
     "max": 51.821
@@ -34,35 +39,35 @@
   "series": [
     {
       "date": "2026-07-10",
-      "stock_krw": 2180000.0,
+      "stock_local": 2180000.0,
       "adr_usd": 168.01,
-      "usdkrw": 1505.91,
-      "adr_krw": 2530079.3657,
+      "fx": 1505.91,
+      "adr_local": 2530079.3657,
       "gap_pct": 16.0587
     },
     {
       "date": "2026-07-13",
-      "stock_krw": 1845000.0,
+      "stock_local": 1845000.0,
       "adr_usd": 152.35,
-      "usdkrw": 1498.48,
-      "adr_krw": 2282934.3417,
+      "fx": 1498.48,
+      "adr_local": 2282934.3417,
       "gap_pct": 23.7363
     },
     {
       "date": "2026-07-14",
-      "stock_krw": 1913000.0,
+      "stock_local": 1913000.0,
       "adr_usd": 193.92,
-      "usdkrw": 1497.7,
-      "adr_krw": 2904339.7179,
+      "fx": 1497.7,
+      "adr_local": 2904339.7179,
       "gap_pct": 51.8212
     },
     {
       "date": "2026-07-15",
-      "stock_krw": 2121000.0,
+      "stock_local": 2085000.0,
       "adr_usd": 193.92,
-      "usdkrw": 1490.61,
-      "adr_krw": 2890590.8563,
-      "gap_pct": 36.2843
+      "fx": 1484.88,
+      "adr_local": 2879479.2783,
+      "gap_pct": 38.1045
     }
   ]
 }

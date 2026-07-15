@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SK하이닉스 ADR 괴리 트래커</title>
-  <meta name="description" content="SK하이닉스 나스닥 ADR(SKHY)과 코스피 본주(000660)의 프리미엄/디스카운트(괴리율)를 매일 자동 추적하는 대시보드." />
+  <title>ADR 괴리 트래커 — SK하이닉스 · TSMC</title>
+  <meta name="description" content="SK하이닉스(SKHY)·TSMC(TSM) 나스닥/NYSE ADR과 본주의 프리미엄/디스카운트(괴리율)를 한 페이지에서 비교 추적하는 대시보드." />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <link rel="stylesheet" href="assets/style.css" />
@@ -15,49 +15,39 @@
   <div class="wrap">
     <header class="site-header">
       <div class="emoji">🪙</div>
-      <h1>SK하이닉스 ADR 괴리 트래커</h1>
-      <p class="subtitle">나스닥 ADR <strong>SKHY</strong> ↔ 코스피 본주 <strong>000660</strong> · 프리미엄/디스카운트 추적</p>
+      <h1>ADR 괴리 트래커</h1>
+      <p class="subtitle">미국 상장 ADR ↔ 본주 프리미엄/디스카운트 · <strong>SK하이닉스</strong> · <strong>TSMC</strong></p>
     </header>
 
     <div id="status-bar" class="status-bar">
       <span class="status-pill">데이터 준비 중…</span>
     </div>
 
-    <!-- 히어로: 현재 괴리율 대형 표기 -->
-    <section class="card hero" id="hero">
-      <div class="loading">불러오는 중…</div>
-    </section>
-
-    <!-- 2패널 차트 -->
+    <!-- 비교: 종목별 현재 괴리 카드 + 오버레이 차트 -->
     <section class="card">
       <div class="card-head">
-        <h2>본주 vs ADR 환산가 · 괴리율</h2>
+        <h2>종목별 괴리율 비교</h2>
         <div class="range-toggle" id="range-toggle"></div>
       </div>
-      <p class="chart-note">
-        위: <strong>본주 실제가</strong>와 <strong>ADR 환산가</strong>(모두 원화, 본주 1주 기준) — 두 선의 간격이 곧 괴리.
-        환율은 <strong>우축</strong> 보조선. 아래: 괴리율(%) 오실레이터 — 0선 위=프리미엄, 아래=디스카운트.
-      </p>
-      <div class="chart-box"><canvas id="priceChart"></canvas></div>
-      <div class="chart-box osc" style="margin-top:10px"><canvas id="gapChart"></canvas></div>
+      <div id="compare-cards" class="compare-cards"><div class="loading">불러오는 중…</div></div>
+      <p class="chart-note" style="margin-top:16px">각 종목의 괴리율(%)을 한 축에 겹쳐 비교합니다. 0선 위=프리미엄, 아래=디스카운트. (괴리율은 비율이라 통화가 달라도 직접 비교 가능)</p>
+      <div class="chart-box osc"><canvas id="compareChart"></canvas></div>
     </section>
 
-    <!-- 최근 기록 -->
-    <section class="card">
-      <h2>최근 기록</h2>
-      <table class="rec-table" id="recent-table"></table>
-    </section>
+    <!-- 종목별 상세 (JS가 주입) -->
+    <div id="asset-sections"></div>
 
     <!-- 방법론 -->
     <section class="card method">
       <h2>괴리율이란?</h2>
-      <p><code>ADR 환산가(KRW) = SKHY($) × 10 × 원달러환율</code></p>
+      <p><code>ADR 환산가(현지통화) = ADR가격($) × (본주 1주당 ADR 개수) × 환율</code></p>
       <p><code>괴리율(%) = (ADR 환산가 − 본주가) ÷ 본주가 × 100</code></p>
       <p>
-        ADR 1개는 SK하이닉스 본주 <strong>0.1주</strong>(= 본주 1주가 ADR 10개, SEC Form 424B4 기준)에 해당합니다.
-        그래서 ADR 가격을 본주 1주 기준·원화로 환산해 본주 실제가와 비교합니다.
+        ADR 1개가 본주 몇 주에 해당하는지(예탁비율)는 종목마다 다릅니다 —
+        <strong>SK하이닉스는 1 ADS = 본주 0.1주</strong>(본주 1주 = ADR 10개, SEC Form 424B4),
+        <strong>TSMC는 1 ADR = 본주 5주</strong>. 그래서 ADR을 본주 1주 기준·현지통화로 환산해 본주 실제가와 비교합니다.
         <strong>양수면 미국 ADR이 더 비싸게(프리미엄), 음수면 더 싸게(디스카운트)</strong> 거래되는 상태입니다.
-        괴리율은 비율이라 원화·달러 어느 쪽으로 계산해도 값이 같고, <strong>환율이 움직이면 주가가 그대로여도 괴리가 변합니다.</strong>
+        괴리율은 비율이라 통화 단위가 약분돼 종목 간 비교가 가능하고, <strong>환율이 움직이면 주가가 그대로여도 괴리가 변합니다.</strong>
       </p>
       <div class="legend">
         <span class="item"><span class="sw" style="background:#ef4444"></span>강한 프리미엄 ≥ +3%</span>
@@ -70,7 +60,7 @@
 
     <p class="disclaimer">
       본 사이트는 정보 제공용이며 투자 권유가 아닙니다. 투자 판단의 책임은 이용자 본인에게 있습니다.<br>
-      데이터 출처: Yahoo Finance (yfinance) · 한·미 시장 거래시간 차이로 각 종가는 최대 하루의 시차가 있을 수 있습니다.
+      데이터 출처: Yahoo Finance (yfinance) · 한·미·대만 시장 거래시간 차이로 각 종가는 최대 하루의 시차가 있을 수 있습니다.
     </p>
   </div>
 
