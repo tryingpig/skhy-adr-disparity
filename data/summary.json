@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T15:29:01+09:00",
+  "updated_at": "2026-07-18T14:54:08+09:00",
   "as_of_date": "2026-07-17",
   "zones": {
     "premium_hi": 3.0,
@@ -23,19 +23,19 @@
       "as_of_date": "2026-07-17",
       "current": {
         "stock_local": 1842000.0,
-        "adr_usd": 152.31,
-        "fx": 1480.15,
-        "adr_local": 2254416.466,
-        "adr_fair_usd": 124.4468,
-        "gap_pct": 22.3896,
+        "adr_usd": 154.03,
+        "fx": 1487.46,
+        "adr_local": 2291134.5597,
+        "adr_fair_usd": 123.8353,
+        "gap_pct": 24.383,
         "zone": "premium_hi"
       },
       "stats": {
         "window": 6,
-        "mean": 27.167,
-        "std": 11.44,
-        "zscore": -0.42,
-        "percentile": 33.3,
+        "mean": 27.499,
+        "std": 11.325,
+        "zscore": -0.28,
+        "percentile": 66.7,
         "min": 16.059,
         "max": 51.821
       }
@@ -55,19 +55,19 @@
       "as_of_date": "2026-07-17",
       "current": {
         "stock_local": 2290.0,
-        "adr_usd": 409.74,
-        "fx": 32.353,
-        "adr_local": 2651.2636,
-        "adr_fair_usd": 353.9084,
-        "gap_pct": 15.7757,
+        "adr_usd": 398.37,
+        "fx": 32.365,
+        "adr_local": 2578.6491,
+        "adr_fair_usd": 353.7772,
+        "gap_pct": 12.6048,
         "zone": "premium_hi"
       },
       "stats": {
         "window": 60,
-        "mean": 14.783,
-        "std": 3.378,
-        "zscore": 0.29,
-        "percentile": 60.0,
+        "mean": 14.73,
+        "std": 3.387,
+        "zscore": -0.63,
+        "percentile": 30.0,
         "min": 6.867,
         "max": 26.292
       }
