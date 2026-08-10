@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-08T07:35:44+09:00",
-  "as_of_date": "2026-08-07",
+  "updated_at": "2026-08-11T07:37:21+09:00",
+  "as_of_date": "2026-08-10",
   "zones": {
     "premium_hi": 3.0,
     "premium": 1.0,
@@ -20,22 +20,22 @@
       "ccy_decimals": 0,
       "market": "KOSPI",
       "note": "1 ADS = 보통주 1/10주 (SEC Form 424B4)",
-      "as_of_date": "2026-08-07",
+      "as_of_date": "2026-08-10",
       "current": {
-        "stock_local": 1422000.0,
-        "adr_usd": 137.91,
-        "fx": 1407.45,
-        "adr_local": 1941014.2792,
-        "adr_fair_usd": 101.0338,
-        "gap_pct": 36.4989,
+        "stock_local": 1420000.0,
+        "adr_usd": 135.29,
+        "fx": 1417.83,
+        "adr_local": 1918182.0524,
+        "adr_fair_usd": 100.1531,
+        "gap_pct": 35.0832,
         "zone": "premium_hi"
       },
       "stats": {
-        "window": 21,
-        "mean": 30.808,
-        "std": 10.989,
-        "zscore": 0.52,
-        "percentile": 81.0,
+        "window": 22,
+        "mean": 31.068,
+        "std": 10.81,
+        "zscore": 0.37,
+        "percentile": 72.7,
         "min": 14.826,
         "max": 62.556
       }
@@ -52,22 +52,22 @@
       "ccy_decimals": 1,
       "market": "TWSE",
       "note": "1 ADR = 보통주 5주",
-      "as_of_date": "2026-08-07",
+      "as_of_date": "2026-08-10",
       "current": {
-        "stock_local": 2370.0,
-        "adr_usd": 420.04,
-        "fx": 32.235,
-        "adr_local": 2707.998,
-        "adr_fair_usd": 367.6128,
-        "gap_pct": 14.2615,
+        "stock_local": 2380.0,
+        "adr_usd": 418.47,
+        "fx": 32.228,
+        "adr_local": 2697.2903,
+        "adr_fair_usd": 369.2441,
+        "gap_pct": 13.3315,
         "zone": "premium_hi"
       },
       "stats": {
         "window": 60,
-        "mean": 14.426,
-        "std": 3.562,
-        "zscore": -0.05,
-        "percentile": 53.3,
+        "mean": 14.451,
+        "std": 3.547,
+        "zscore": -0.32,
+        "percentile": 40.0,
         "min": 6.867,
         "max": 26.292
       }
