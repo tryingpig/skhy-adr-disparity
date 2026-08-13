@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-13T07:40:54+09:00",
-  "as_of_date": "2026-08-12",
+  "updated_at": "2026-08-14T07:41:49+09:00",
+  "as_of_date": "2026-08-13",
   "zones": {
     "premium_hi": 3.0,
     "premium": 1.0,
@@ -20,22 +20,22 @@
       "ccy_decimals": 0,
       "market": "KOSPI",
       "note": "1 ADS = 보통주 1/10주 (SEC Form 424B4)",
-      "as_of_date": "2026-08-12",
+      "as_of_date": "2026-08-13",
       "current": {
-        "stock_local": 1504000.0,
-        "adr_usd": 154.41,
-        "fx": 1416.95,
-        "adr_local": 2187912.4715,
-        "adr_fair_usd": 106.1435,
-        "gap_pct": 45.4729,
+        "stock_local": 1593000.0,
+        "adr_usd": 165.67,
+        "fx": 1418.11,
+        "adr_local": 2349382.7868,
+        "adr_fair_usd": 112.3326,
+        "gap_pct": 47.4817,
         "zone": "premium_hi"
       },
       "stats": {
-        "window": 24,
-        "mean": 32.034,
-        "std": 10.888,
-        "zscore": 1.23,
-        "percentile": 91.7,
+        "window": 25,
+        "mean": 32.633,
+        "std": 11.067,
+        "zscore": 1.34,
+        "percentile": 92.0,
         "min": 14.826,
         "max": 62.556
       }
@@ -52,22 +52,22 @@
       "ccy_decimals": 1,
       "market": "TWSE",
       "note": "1 ADR = 보통주 5주",
-      "as_of_date": "2026-08-12",
+      "as_of_date": "2026-08-13",
       "current": {
-        "stock_local": 2415.0,
-        "adr_usd": 429.15,
-        "fx": 32.217,
-        "adr_local": 2765.185,
-        "adr_fair_usd": 374.8021,
-        "gap_pct": 14.5004,
+        "stock_local": 2435.0,
+        "adr_usd": 430.49,
+        "fx": 32.12,
+        "adr_local": 2765.4676,
+        "adr_fair_usd": 379.0473,
+        "gap_pct": 13.5716,
         "zone": "premium_hi"
       },
       "stats": {
         "window": 60,
-        "mean": 14.435,
+        "mean": 14.404,
         "std": 3.527,
-        "zscore": 0.02,
-        "percentile": 60.0,
+        "zscore": -0.24,
+        "percentile": 45.0,
         "min": 6.867,
         "max": 26.292
       }
