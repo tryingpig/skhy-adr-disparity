@@ -10,8 +10,8 @@
   "ccy_decimals": 0,
   "market": "KOSPI",
   "note": "1 ADS = 보통주 1/10주 (SEC Form 424B4)",
-  "updated_at": "2026-08-27T11:58:18+09:00",
-  "as_of_date": "2026-08-27",
+  "updated_at": "2026-08-28T14:58:52+09:00",
+  "as_of_date": "2026-08-28",
   "zones": {
     "premium_hi": 3.0,
     "premium": 1.0,
@@ -19,303 +19,311 @@
     "discount_hi": -3.0
   },
   "current": {
-    "stock_local": 1748000.0,
-    "adr_usd": 158.02,
-    "fx": 1382.58,
-    "adr_local": 2184752.9056,
-    "adr_fair_usd": 126.4303,
-    "gap_pct": 24.9859,
+    "stock_local": 1672000.0,
+    "adr_usd": 161.61,
+    "fx": 1375.8,
+    "adr_local": 2223430.4673,
+    "adr_fair_usd": 121.5293,
+    "gap_pct": 32.9803,
     "zone": "premium_hi"
   },
   "stats": {
-    "window": 35,
-    "mean": 33.306,
-    "std": 10.246,
-    "zscore": -0.81,
-    "percentile": 22.9,
-    "min": 14.826,
-    "max": 62.556
+    "window": 36,
+    "mean": 33.443,
+    "std": 10.032,
+    "zscore": -0.05,
+    "percentile": 58.3,
+    "min": 14.851,
+    "max": 62.592
   },
   "series": [
     {
       "date": "2026-07-10",
-      "stock_local": 2180000.0,
+      "stock_local": 2179527.5,
       "adr_usd": 168.01,
       "fx": 1505.91,
       "adr_local": 2530079.3657,
-      "gap_pct": 16.0587
+      "gap_pct": 16.0838
     },
     {
       "date": "2026-07-13",
-      "stock_local": 1845000.0,
+      "stock_local": 1844600.0,
       "adr_usd": 152.35,
       "fx": 1498.48,
       "adr_local": 2282934.3417,
-      "gap_pct": 23.7363
+      "gap_pct": 23.7631
     },
     {
       "date": "2026-07-14",
-      "stock_local": 1913000.0,
+      "stock_local": 1912585.25,
       "adr_usd": 193.92,
       "fx": 1497.7,
       "adr_local": 2904339.7179,
-      "gap_pct": 51.8212
+      "gap_pct": 51.8541
     },
     {
       "date": "2026-07-15",
-      "stock_local": 2082000.0,
+      "stock_local": 2081548.625,
       "adr_usd": 176.46,
       "fx": 1487.88,
       "adr_local": 2625513.1565,
-      "gap_pct": 26.1053
+      "gap_pct": 26.1327
     },
     {
       "date": "2026-07-16",
-      "stock_local": 1842000.0,
+      "stock_local": 1841600.625,
       "adr_usd": 152.31,
       "fx": 1486.2,
       "adr_local": 2263631.1093,
-      "gap_pct": 22.8899
+      "gap_pct": 22.9165
     },
     {
       "date": "2026-07-17",
-      "stock_local": 1842000.0,
+      "stock_local": 1841600.625,
       "adr_usd": 154.03,
       "fx": 1478.85,
       "adr_local": 2277872.5993,
-      "gap_pct": 23.663
+      "gap_pct": 23.6898
     },
     {
       "date": "2026-07-20",
-      "stock_local": 1764000.0,
+      "stock_local": 1763617.625,
       "adr_usd": 151.16,
       "fx": 1487.39,
       "adr_local": 2248338.8006,
-      "gap_pct": 27.4568
+      "gap_pct": 27.4845
     },
     {
       "date": "2026-07-21",
-      "stock_local": 1836000.0,
+      "stock_local": 1835602.0,
       "adr_usd": 171.94,
       "fx": 1475.01,
       "adr_local": 2536132.2468,
-      "gap_pct": 38.1336
+      "gap_pct": 38.1635
     },
     {
       "date": "2026-07-22",
-      "stock_local": 1830000.0,
+      "stock_local": 1829603.25,
       "adr_usd": 165.27,
       "fx": 1479.72,
       "adr_local": 2445533.2588,
-      "gap_pct": 33.6357
+      "gap_pct": 33.6647
     },
     {
       "date": "2026-07-23",
-      "stock_local": 1919000.0,
+      "stock_local": 1918584.0,
       "adr_usd": 169.5,
       "fx": 1475.63,
       "adr_local": 2501192.8583,
-      "gap_pct": 30.3383
+      "gap_pct": 30.3666
     },
     {
       "date": "2026-07-24",
-      "stock_local": 1759000.0,
+      "stock_local": 1758618.625,
       "adr_usd": 154.57,
       "fx": 1474.04,
       "adr_local": 2278423.7963,
-      "gap_pct": 29.5295
+      "gap_pct": 29.5576
     },
     {
       "date": "2026-07-27",
-      "stock_local": 1816000.0,
+      "stock_local": 1815606.375,
       "adr_usd": 143.02,
       "fx": 1458.01,
       "adr_local": 2085245.9783,
-      "gap_pct": 14.8263
+      "gap_pct": 14.8512
     },
     {
       "date": "2026-07-28",
-      "stock_local": 1550000.0,
+      "stock_local": 1549664.0,
       "adr_usd": 130.17,
       "fx": 1464.4399,
       "adr_local": 1906261.4449,
-      "gap_pct": 22.9846
+      "gap_pct": 23.0113
     },
     {
       "date": "2026-07-29",
-      "stock_local": 1401000.0,
+      "stock_local": 1400696.25,
       "adr_usd": 126.79,
       "fx": 1453.16,
       "adr_local": 1842461.6206,
-      "gap_pct": 31.5105
+      "gap_pct": 31.539
     },
     {
       "date": "2026-07-30",
-      "stock_local": 1322000.0,
+      "stock_local": 1321713.375,
       "adr_usd": 149.0,
       "fx": 1442.28,
       "adr_local": 2148997.2437,
-      "gap_pct": 62.5565
+      "gap_pct": 62.5918
     },
     {
       "date": "2026-07-31",
-      "stock_local": 1718000.0,
+      "stock_local": 1717627.625,
       "adr_usd": 143.73,
       "fx": 1420.6,
       "adr_local": 2041828.2842,
-      "gap_pct": 18.8491
+      "gap_pct": 18.8749
     },
     {
       "date": "2026-08-03",
-      "stock_local": 1567000.0,
+      "stock_local": 1566660.25,
       "adr_usd": 142.72,
       "fx": 1435.7,
       "adr_local": 2049030.9878,
-      "gap_pct": 30.7614
+      "gap_pct": 30.7897
     },
     {
       "date": "2026-08-04",
-      "stock_local": 1577000.0,
+      "stock_local": 1576658.125,
       "adr_usd": 154.38,
       "fx": 1428.5,
       "adr_local": 2205318.3698,
-      "gap_pct": 39.8426
+      "gap_pct": 39.873
     },
     {
       "date": "2026-08-05",
-      "stock_local": 1668000.0,
+      "stock_local": 1667638.375,
       "adr_usd": 151.03,
       "fx": 1428.4301,
       "adr_local": 2157357.8927,
-      "gap_pct": 29.338
+      "gap_pct": 29.366
     },
     {
       "date": "2026-08-06",
-      "stock_local": 1495000.0,
+      "stock_local": 1494675.875,
       "adr_usd": 143.53,
       "fx": 1421.16,
       "adr_local": 2039790.9797,
-      "gap_pct": 36.4409
+      "gap_pct": 36.4705
     },
     {
       "date": "2026-08-07",
-      "stock_local": 1422000.0,
+      "stock_local": 1421691.75,
       "adr_usd": 137.91,
       "fx": 1422.3,
       "adr_local": 1961494.0494,
-      "gap_pct": 37.9391
+      "gap_pct": 37.969
     },
     {
       "date": "2026-08-10",
-      "stock_local": 1420000.0,
+      "stock_local": 1419692.125,
       "adr_usd": 135.29,
       "fx": 1407.0,
       "adr_local": 1903530.2055,
-      "gap_pct": 34.0514
+      "gap_pct": 34.0805
     },
     {
       "date": "2026-08-11",
-      "stock_local": 1425000.0,
+      "stock_local": 1424691.125,
       "adr_usd": 141.65,
       "fx": 1417.3101,
       "adr_local": 2007619.6115,
-      "gap_pct": 40.8856
+      "gap_pct": 40.9161
     },
     {
       "date": "2026-08-12",
-      "stock_local": 1504000.0,
+      "stock_local": 1503674.0,
       "adr_usd": 154.41,
       "fx": 1412.1801,
       "adr_local": 2180547.2727,
-      "gap_pct": 44.9832
+      "gap_pct": 45.0146
     },
     {
       "date": "2026-08-13",
-      "stock_local": 1593000.0,
+      "stock_local": 1592654.625,
       "adr_usd": 165.67,
       "fx": 1416.46,
       "adr_local": 2346649.1913,
-      "gap_pct": 47.3101
+      "gap_pct": 47.342
     },
     {
       "date": "2026-08-14",
-      "stock_local": 1645000.0,
+      "stock_local": 1644643.375,
       "adr_usd": 166.33,
       "fx": 1416.85,
       "adr_local": 2356646.5903,
-      "gap_pct": 43.2612
+      "gap_pct": 43.2923
     },
     {
       "date": "2026-08-17",
-      "stock_local": 1645000.0,
+      "stock_local": 1644643.375,
       "adr_usd": 171.38,
       "fx": 1415.37,
       "adr_local": 2425661.1667,
-      "gap_pct": 47.4566
+      "gap_pct": 47.4886
     },
     {
       "date": "2026-08-18",
-      "stock_local": 1662000.0,
+      "stock_local": 1661639.75,
       "adr_usd": 155.62,
       "fx": 1414.73,
       "adr_local": 2201602.7265,
-      "gap_pct": 32.4671
+      "gap_pct": 32.4958
     },
     {
       "date": "2026-08-19",
-      "stock_local": 1500000.0,
+      "stock_local": 1499674.875,
       "adr_usd": 156.16,
       "fx": 1413.58,
       "adr_local": 2207446.5111,
-      "gap_pct": 47.1631
+      "gap_pct": 47.195
     },
     {
       "date": "2026-08-20",
-      "stock_local": 1691000.0,
+      "stock_local": 1690633.375,
       "adr_usd": 163.08,
       "fx": 1389.4,
       "adr_local": 2265833.5853,
-      "gap_pct": 33.9937
+      "gap_pct": 34.0228
     },
     {
       "date": "2026-08-21",
-      "stock_local": 1730000.0,
+      "stock_local": 1729625.0,
       "adr_usd": 163.41,
       "fx": 1390.79,
       "adr_local": 2272690.0538,
-      "gap_pct": 31.3694
+      "gap_pct": 31.3978
     },
     {
       "date": "2026-08-24",
-      "stock_local": 1671000.0,
+      "stock_local": 1670637.75,
       "adr_usd": 155.37,
       "fx": 1384.98,
       "adr_local": 2151843.328,
-      "gap_pct": 28.7758
+      "gap_pct": 28.8037
     },
     {
       "date": "2026-08-25",
-      "stock_local": 1678000.0,
+      "stock_local": 1677636.25,
       "adr_usd": 159.53,
       "fx": 1380.76,
       "adr_local": 2202726.4267,
-      "gap_pct": 31.2709
+      "gap_pct": 31.2994
     },
     {
       "date": "2026-08-26",
-      "stock_local": 1688000.0,
+      "stock_local": 1687634.125,
       "adr_usd": 158.02,
       "fx": 1381.49,
       "adr_local": 2183030.5416,
-      "gap_pct": 29.3265
+      "gap_pct": 29.3545
     },
     {
       "date": "2026-08-27",
-      "stock_local": 1748000.0,
-      "adr_usd": 158.02,
-      "fx": 1382.58,
-      "adr_local": 2184752.9056,
-      "gap_pct": 24.9859
+      "stock_local": 1729625.0,
+      "adr_usd": 161.61,
+      "fx": 1383.49,
+      "adr_local": 2235858.1817,
+      "gap_pct": 29.2684
+    },
+    {
+      "date": "2026-08-28",
+      "stock_local": 1672000.0,
+      "adr_usd": 161.61,
+      "fx": 1375.8,
+      "adr_local": 2223430.4673,
+      "gap_pct": 32.9803
     }
   ]
 }
