@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-28T14:58:52+09:00",
-  "as_of_date": "2026-08-28",
+  "updated_at": "2026-08-29T12:32:21+09:00",
+  "as_of_date": "2026-08-29",
   "zones": {
     "premium_hi": 3.0,
     "premium": 1.0,
@@ -20,22 +20,22 @@
       "ccy_decimals": 0,
       "market": "KOSPI",
       "note": "1 ADS = 보통주 1/10주 (SEC Form 424B4)",
-      "as_of_date": "2026-08-28",
+      "as_of_date": "2026-08-29",
       "current": {
-        "stock_local": 1672000.0,
-        "adr_usd": 161.61,
-        "fx": 1375.8,
-        "adr_local": 2223430.4673,
-        "adr_fair_usd": 121.5293,
-        "gap_pct": 32.9803,
+        "stock_local": 1729625.0,
+        "adr_usd": 161.04,
+        "fx": 1371.5,
+        "adr_local": 2208663.5079,
+        "adr_fair_usd": 126.1119,
+        "gap_pct": 27.6961,
         "zone": "premium_hi"
       },
       "stats": {
-        "window": 36,
-        "mean": 33.443,
-        "std": 10.032,
-        "zscore": -0.05,
-        "percentile": 58.3,
+        "window": 37,
+        "mean": 33.168,
+        "std": 9.969,
+        "zscore": -0.55,
+        "percentile": 27.0,
         "min": 14.851,
         "max": 62.592
       }
@@ -54,20 +54,20 @@
       "note": "1 ADR = 보통주 5주",
       "as_of_date": "2026-08-28",
       "current": {
-        "stock_local": 2420.0,
-        "adr_usd": 427.3,
-        "fx": 31.613,
-        "adr_local": 2701.647,
-        "adr_fair_usd": 382.7539,
-        "gap_pct": 11.6383,
+        "stock_local": 2410.0,
+        "adr_usd": 417.52,
+        "fx": 31.628,
+        "adr_local": 2641.0645,
+        "adr_fair_usd": 380.9915,
+        "gap_pct": 9.5877,
         "zone": "premium_hi"
       },
       "stats": {
         "window": 60,
-        "mean": 13.941,
-        "std": 3.576,
-        "zscore": -0.64,
-        "percentile": 30.0,
+        "mean": 13.907,
+        "std": 3.607,
+        "zscore": -1.2,
+        "percentile": 5.0,
         "min": 6.867,
         "max": 26.292
       }
