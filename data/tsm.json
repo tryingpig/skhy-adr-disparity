@@ -10,7 +10,7 @@
   "ccy_decimals": 1,
   "market": "TWSE",
   "note": "1 ADR = 보통주 5주",
-  "updated_at": "2026-09-03T09:33:55+09:00",
+  "updated_at": "2026-09-03T21:08:40+09:00",
   "as_of_date": "2026-09-03",
   "zones": {
     "premium_hi": 3.0,
@@ -19,19 +19,19 @@
     "discount_hi": -3.0
   },
   "current": {
-    "stock_local": 2385.0,
-    "adr_usd": 414.0,
-    "fx": 31.725,
-    "adr_local": 2626.83,
-    "adr_fair_usd": 375.8865,
-    "gap_pct": 10.1396,
+    "stock_local": 2390.0,
+    "adr_usd": 415.5,
+    "fx": 31.69,
+    "adr_local": 2633.439,
+    "adr_fair_usd": 377.0906,
+    "gap_pct": 10.1857,
     "zone": "premium_hi"
   },
   "stats": {
     "window": 60,
-    "mean": 13.388,
-    "std": 3.684,
-    "zscore": -0.88,
+    "mean": 13.395,
+    "std": 3.677,
+    "zscore": -0.87,
     "percentile": 15.0,
     "min": 6.867,
     "max": 26.292
@@ -55,7 +55,7 @@
     },
     {
       "date": "2025-09-05",
-      "stock_local": 1164.478,
+      "stock_local": 1164.4781,
       "adr_usd": 240.7475,
       "fx": 30.694,
       "adr_local": 1477.9006,
@@ -63,7 +63,7 @@
     },
     {
       "date": "2025-09-08",
-      "stock_local": 1164.478,
+      "stock_local": 1164.4781,
       "adr_usd": 244.4861,
       "fx": 30.479,
       "adr_local": 1490.3385,
@@ -71,11 +71,11 @@
     },
     {
       "date": "2025-09-09",
-      "stock_local": 1184.215,
+      "stock_local": 1184.2148,
       "adr_usd": 248.1753,
       "fx": 30.3311,
       "adr_local": 1505.4859,
-      "gap_pct": 27.1294
+      "gap_pct": 27.1295
     },
     {
       "date": "2025-09-10",
@@ -103,7 +103,7 @@
     },
     {
       "date": "2025-09-15",
-      "stock_local": 1238.4916,
+      "stock_local": 1238.4915,
       "adr_usd": 258.5209,
       "fx": 30.2849,
       "adr_local": 1565.856,
@@ -2104,18 +2104,18 @@
     {
       "date": "2026-09-02",
       "stock_local": 2385.0,
-      "adr_usd": 414.0,
+      "adr_usd": 415.5,
       "fx": 31.675,
-      "adr_local": 2622.6899,
-      "gap_pct": 9.966
+      "adr_local": 2632.1924,
+      "gap_pct": 10.3645
     },
     {
       "date": "2026-09-03",
-      "stock_local": 2385.0,
-      "adr_usd": 414.0,
-      "fx": 31.725,
-      "adr_local": 2626.83,
-      "gap_pct": 10.1396
+      "stock_local": 2390.0,
+      "adr_usd": 415.5,
+      "fx": 31.69,
+      "adr_local": 2633.439,
+      "gap_pct": 10.1857
     }
   ]
 }
