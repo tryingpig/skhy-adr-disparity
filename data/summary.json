@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T09:50:31+09:00",
-  "as_of_date": "2026-09-17",
+  "updated_at": "2026-09-18T09:43:53+09:00",
+  "as_of_date": "2026-09-18",
   "zones": {
     "premium_hi": 3.0,
     "premium": 1.0,
@@ -20,22 +20,22 @@
       "ccy_decimals": 0,
       "market": "KOSPI",
       "note": "1 ADS = 보통주 1/10주 (SEC Form 424B4)",
-      "as_of_date": "2026-09-17",
+      "as_of_date": "2026-09-18",
       "current": {
-        "stock_local": 1737000.0,
-        "adr_usd": 174.83,
-        "fx": 1378.13,
-        "adr_local": 2409384.7128,
-        "adr_fair_usd": 126.0404,
-        "gap_pct": 38.7095,
+        "stock_local": 1819000.0,
+        "adr_usd": 174.87,
+        "fx": 1384.38,
+        "adr_local": 2420865.2469,
+        "adr_fair_usd": 131.3946,
+        "gap_pct": 33.0877,
         "zone": "premium_hi"
       },
       "stats": {
-        "window": 50,
-        "mean": 34.841,
-        "std": 9.026,
-        "zscore": 0.43,
-        "percentile": 66.0,
+        "window": 51,
+        "mean": 34.792,
+        "std": 8.934,
+        "zscore": -0.19,
+        "percentile": 43.1,
         "min": 14.851,
         "max": 62.592
       }
@@ -52,24 +52,24 @@
       "ccy_decimals": 1,
       "market": "TWSE",
       "note": "1 ADR = 보통주 5주",
-      "as_of_date": "2026-09-17",
+      "as_of_date": "2026-09-18",
       "current": {
-        "stock_local": 2380.0,
-        "adr_usd": 413.75,
-        "fx": 31.857,
-        "adr_local": 2636.1668,
-        "adr_fair_usd": 373.5443,
-        "gap_pct": 10.7633,
+        "stock_local": 2425.0,
+        "adr_usd": 417.72,
+        "fx": 31.848,
+        "adr_local": 2660.7093,
+        "adr_fair_usd": 380.7146,
+        "gap_pct": 9.72,
         "zone": "premium_hi"
       },
       "stats": {
         "window": 60,
-        "mean": 12.863,
-        "std": 3.246,
-        "zscore": -0.65,
-        "percentile": 25.0,
-        "min": 7.182,
-        "max": 26.664
+        "mean": 12.438,
+        "std": 3.183,
+        "zscore": -0.85,
+        "percentile": 10.0,
+        "min": 6.895,
+        "max": 26.325
       }
     }
   ]
