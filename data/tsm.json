@@ -10,8 +10,8 @@
   "ccy_decimals": 1,
   "market": "TWSE",
   "note": "1 ADR = 보통주 5주",
-  "updated_at": "2026-10-15T09:47:02+09:00",
-  "as_of_date": "2026-10-15",
+  "updated_at": "2026-10-16T09:40:01+09:00",
+  "as_of_date": "2026-10-16",
   "zones": {
     "premium_hi": 3.0,
     "premium": 1.0,
@@ -19,39 +19,31 @@
     "discount_hi": -3.0
   },
   "current": {
-    "stock_local": 2490.0,
-    "adr_usd": 430.0,
-    "fx": 32.182,
-    "adr_local": 2767.6519,
-    "adr_fair_usd": 386.8622,
-    "gap_pct": 11.1507,
+    "stock_local": 2440.0,
+    "adr_usd": 422.25,
+    "fx": 32.324,
+    "adr_local": 2729.7619,
+    "adr_fair_usd": 377.4285,
+    "gap_pct": 11.8755,
     "zone": "premium_hi"
   },
   "stats": {
     "window": 60,
-    "mean": 12.982,
-    "std": 2.899,
-    "zscore": -0.63,
-    "percentile": 33.3,
+    "mean": 13.002,
+    "std": 2.888,
+    "zscore": -0.39,
+    "percentile": 46.7,
     "min": 7.559,
     "max": 20.604
   },
   "series": [
     {
-      "date": "2025-10-15",
-      "stock_local": 1447.252,
-      "adr_usd": 301.5188,
-      "fx": 30.6839,
-      "adr_local": 1850.3548,
-      "gap_pct": 27.853
-    },
-    {
       "date": "2025-10-16",
-      "stock_local": 1467.0096,
+      "stock_local": 1467.0095,
       "adr_usd": 296.6998,
       "fx": 30.6098,
-      "adr_local": 1816.3843,
-      "gap_pct": 23.8154
+      "adr_local": 1816.3845,
+      "gap_pct": 23.8155
     },
     {
       "date": "2025-10-17",
@@ -66,7 +58,7 @@
       "stock_local": 1462.0702,
       "adr_usd": 294.5822,
       "fx": 30.6219,
-      "adr_local": 1804.1335,
+      "adr_local": 1804.1336,
       "gap_pct": 23.3958
     },
     {
@@ -82,15 +74,15 @@
       "stock_local": 1442.3125,
       "adr_usd": 285.8546,
       "fx": 30.6773,
-      "adr_local": 1753.8493,
+      "adr_local": 1753.8495,
       "gap_pct": 21.5998
     },
     {
       "date": "2025-10-23",
       "stock_local": 1432.4336,
-      "adr_usd": 287.6853,
+      "adr_usd": 287.6852,
       "fx": 30.7451,
-      "adr_local": 1768.9825,
+      "adr_local": 1768.9823,
       "gap_pct": 23.4949
     },
     {
@@ -98,7 +90,7 @@
       "stock_local": 1432.4336,
       "adr_usd": 291.8709,
       "fx": 30.775,
-      "adr_local": 1796.4652,
+      "adr_local": 1796.4654,
       "gap_pct": 25.4135
     },
     {
@@ -111,15 +103,15 @@
     },
     {
       "date": "2025-10-28",
-      "stock_local": 1457.1309,
+      "stock_local": 1457.1307,
       "adr_usd": 298.3721,
       "fx": 30.6011,
-      "adr_local": 1826.1031,
+      "adr_local": 1826.103,
       "gap_pct": 25.3218
     },
     {
       "date": "2025-10-29",
-      "stock_local": 1486.7673,
+      "stock_local": 1486.7675,
       "adr_usd": 301.8948,
       "fx": 30.5431,
       "adr_local": 1844.1609,
@@ -127,7 +119,7 @@
     },
     {
       "date": "2025-10-30",
-      "stock_local": 1486.7673,
+      "stock_local": 1486.7675,
       "adr_usd": 300.0444,
       "fx": 30.6652,
       "adr_local": 1840.1845,
@@ -135,10 +127,10 @@
     },
     {
       "date": "2025-10-31",
-      "stock_local": 1481.828,
-      "adr_usd": 297.2836,
+      "stock_local": 1481.8279,
+      "adr_usd": 297.2837,
       "fx": 30.7307,
-      "adr_local": 1827.1468,
+      "adr_local": 1827.147,
       "gap_pct": 23.3036
     },
     {
@@ -146,15 +138,15 @@
       "stock_local": 1491.7068,
       "adr_usd": 301.6672,
       "fx": 30.7818,
-      "adr_local": 1857.1721,
+      "adr_local": 1857.1719,
       "gap_pct": 24.4998
     },
     {
       "date": "2025-11-04",
-      "stock_local": 1486.7673,
+      "stock_local": 1486.7675,
       "adr_usd": 290.9705,
       "fx": 30.9031,
-      "adr_local": 1798.378,
+      "adr_local": 1798.3778,
       "gap_pct": 20.9589
     },
     {
@@ -162,15 +154,15 @@
       "stock_local": 1442.3125,
       "adr_usd": 290.5648,
       "fx": 30.919,
-      "adr_local": 1796.7946,
+      "adr_local": 1796.7944,
       "gap_pct": 24.5773
     },
     {
       "date": "2025-11-06",
-      "stock_local": 1447.252,
+      "stock_local": 1447.2518,
       "adr_usd": 286.2108,
       "fx": 30.8929,
-      "adr_local": 1768.3766,
+      "adr_local": 1768.3764,
       "gap_pct": 22.1886
     },
     {
@@ -183,7 +175,7 @@
     },
     {
       "date": "2025-11-10",
-      "stock_local": 1457.1309,
+      "stock_local": 1457.1307,
       "adr_usd": 292.1777,
       "fx": 30.9668,
       "adr_local": 1809.5616,
@@ -191,15 +183,15 @@
     },
     {
       "date": "2025-11-11",
-      "stock_local": 1447.252,
+      "stock_local": 1447.2518,
       "adr_usd": 288.1206,
       "fx": 30.9668,
       "adr_local": 1784.4349,
-      "gap_pct": 23.2981
+      "gap_pct": 23.2982
     },
     {
       "date": "2025-11-12",
-      "stock_local": 1457.1309,
+      "stock_local": 1457.1307,
       "adr_usd": 287.5764,
       "fx": 30.9643,
       "adr_local": 1780.9203,
@@ -210,12 +202,12 @@
       "stock_local": 1442.3125,
       "adr_usd": 279.2446,
       "fx": 31.0641,
-      "adr_local": 1734.8963,
-      "gap_pct": 20.2857
+      "adr_local": 1734.8964,
+      "gap_pct": 20.2858
     },
     {
       "date": "2025-11-14",
-      "stock_local": 1412.6759,
+      "stock_local": 1412.676,
       "adr_usd": 281.8371,
       "fx": 31.1249,
       "adr_local": 1754.4305,
@@ -224,9 +216,9 @@
     {
       "date": "2025-11-17",
       "stock_local": 1427.4941,
-      "adr_usd": 279.0566,
+      "adr_usd": 279.0565,
       "fx": 30.5545,
-      "adr_local": 1705.2869,
+      "adr_local": 1705.2867,
       "gap_pct": 19.4602
     },
     {
@@ -239,23 +231,23 @@
     },
     {
       "date": "2025-11-19",
-      "stock_local": 1378.1001,
+      "stock_local": 1378.0999,
       "adr_usd": 279.4128,
       "fx": 31.1032,
-      "adr_local": 1738.1262,
-      "gap_pct": 26.1248
+      "adr_local": 1738.1266,
+      "gap_pct": 26.1249
     },
     {
       "date": "2025-11-20",
-      "stock_local": 1437.373,
+      "stock_local": 1437.3732,
       "adr_usd": 274.5938,
       "fx": 31.183,
-      "adr_local": 1712.5316,
+      "adr_local": 1712.5318,
       "gap_pct": 19.1432
     },
     {
       "date": "2025-11-21",
-      "stock_local": 1368.2209,
+      "stock_local": 1368.2211,
       "adr_usd": 272.1794,
       "fx": 31.3521,
       "adr_local": 1706.6789,
@@ -279,7 +271,7 @@
     },
     {
       "date": "2025-11-26",
-      "stock_local": 1422.5548,
+      "stock_local": 1422.5547,
       "adr_usd": 286.9233,
       "fx": 31.3881,
       "adr_local": 1801.1953,
@@ -287,7 +279,7 @@
     },
     {
       "date": "2025-11-27",
-      "stock_local": 1417.6154,
+      "stock_local": 1417.6155,
       "adr_usd": 286.9233,
       "fx": 31.2489,
       "adr_local": 1793.2073,
@@ -295,10 +287,10 @@
     },
     {
       "date": "2025-11-28",
-      "stock_local": 1422.5548,
+      "stock_local": 1422.5547,
       "adr_usd": 288.4571,
       "fx": 31.3147,
-      "adr_local": 1806.5892,
+      "adr_local": 1806.5894,
       "gap_pct": 26.9961
     },
     {
@@ -311,10 +303,10 @@
     },
     {
       "date": "2025-12-02",
-      "stock_local": 1412.6759,
+      "stock_local": 1412.676,
       "adr_usd": 289.031,
       "fx": 31.396,
-      "adr_local": 1814.8833,
+      "adr_local": 1814.8835,
       "gap_pct": 28.4713
     },
     {
@@ -322,7 +314,7 @@
       "stock_local": 1432.4336,
       "adr_usd": 292.3558,
       "fx": 31.402,
-      "adr_local": 1836.1114,
+      "adr_local": 1836.1116,
       "gap_pct": 28.1813
     },
     {
@@ -352,17 +344,17 @@
     {
       "date": "2025-12-09",
       "stock_local": 1462.0702,
-      "adr_usd": 300.2325,
+      "adr_usd": 300.2324,
       "fx": 31.1647,
-      "adr_local": 1871.3308,
-      "gap_pct": 27.9919
+      "adr_local": 1871.3306,
+      "gap_pct": 27.9918
     },
     {
       "date": "2025-12-10",
-      "stock_local": 1486.7673,
+      "stock_local": 1486.7675,
       "adr_usd": 306.892,
       "fx": 31.151,
-      "adr_local": 1911.9983,
+      "adr_local": 1911.9985,
       "gap_pct": 28.601
     },
     {
@@ -370,12 +362,12 @@
       "stock_local": 1457.032,
       "adr_usd": 302.4717,
       "fx": 31.077,
-      "adr_local": 1879.9826,
+      "adr_local": 1879.9828,
       "gap_pct": 29.0282
     },
     {
       "date": "2025-12-12",
-      "stock_local": 1466.9437,
+      "stock_local": 1466.9438,
       "adr_usd": 289.7617,
       "fx": 31.1801,
       "adr_local": 1806.9595,
@@ -402,7 +394,7 @@
       "stock_local": 1417.3849,
       "adr_usd": 274.7993,
       "fx": 31.469,
-      "adr_local": 1729.5315,
+      "adr_local": 1729.5317,
       "gap_pct": 22.0227
     },
     {
@@ -410,7 +402,7 @@
       "stock_local": 1417.3849,
       "adr_usd": 282.4591,
       "fx": 31.6321,
-      "adr_local": 1786.9547,
+      "adr_local": 1786.9549,
       "gap_pct": 26.0741
     },
     {
@@ -442,7 +434,7 @@
       "stock_local": 1481.8114,
       "adr_usd": 296.4689,
       "fx": 31.4895,
-      "adr_local": 1867.1317,
+      "adr_local": 1867.1315,
       "gap_pct": 26.0033
     },
     {
@@ -458,7 +450,7 @@
       "stock_local": 1516.5027,
       "adr_usd": 298.5724,
       "fx": 31.38,
-      "adr_local": 1873.8403,
+      "adr_local": 1873.8404,
       "gap_pct": 23.5633
     },
     {
@@ -474,7 +466,7 @@
       "stock_local": 1536.3263,
       "adr_usd": 301.5192,
       "fx": 31.2436,
-      "adr_local": 1884.1091,
+      "adr_local": 1884.1093,
       "gap_pct": 22.6373
     },
     {
@@ -490,32 +482,32 @@
       "stock_local": 1655.2676,
       "adr_usd": 319.736,
       "fx": 31.3587,
-      "adr_local": 2005.3008,
+      "adr_local": 2005.301,
       "gap_pct": 21.1466
     },
     {
       "date": "2026-01-06",
       "stock_local": 1689.9589,
-      "adr_usd": 324.8756,
+      "adr_usd": 324.8755,
       "fx": 31.4746,
-      "adr_local": 2045.0658,
-      "gap_pct": 21.0128
+      "adr_local": 2045.0656,
+      "gap_pct": 21.0127
     },
     {
       "date": "2026-01-07",
       "stock_local": 1660.2235,
       "adr_usd": 316.1938,
       "fx": 31.4921,
-      "adr_local": 1991.5214,
+      "adr_local": 1991.5216,
       "gap_pct": 19.955
     },
     {
       "date": "2026-01-08",
-      "stock_local": 1670.1354,
+      "stock_local": 1670.1353,
       "adr_usd": 315.5291,
       "fx": 31.4491,
       "adr_local": 1984.621,
-      "gap_pct": 18.8299
+      "gap_pct": 18.83
     },
     {
       "date": "2026-01-09",
@@ -567,11 +559,11 @@
     },
     {
       "date": "2026-01-19",
-      "stock_local": 1744.4735,
+      "stock_local": 1744.4736,
       "adr_usd": 339.7288,
       "fx": 31.608,
       "adr_local": 2147.6293,
-      "gap_pct": 23.1105
+      "gap_pct": 23.1104
     },
     {
       "date": "2026-01-20",
@@ -584,17 +576,17 @@
     {
       "date": "2026-01-21",
       "stock_local": 1724.65,
-      "adr_usd": 323.5757,
+      "adr_usd": 323.5758,
       "fx": 31.6823,
-      "adr_local": 2050.3248,
+      "adr_local": 2050.325,
       "gap_pct": 18.8835
     },
     {
       "date": "2026-01-22",
-      "stock_local": 1744.4735,
+      "stock_local": 1744.4736,
       "adr_usd": 324.816,
       "fx": 31.64,
-      "adr_local": 2055.4357,
+      "adr_local": 2055.4359,
       "gap_pct": 17.8256
     },
     {
@@ -602,15 +594,15 @@
       "stock_local": 1754.3854,
       "adr_usd": 332.2575,
       "fx": 31.584,
-      "adr_local": 2098.8042,
+      "adr_local": 2098.804,
       "gap_pct": 19.6319
     },
     {
       "date": "2026-01-26",
       "stock_local": 1739.5178,
-      "adr_usd": 330.1144,
+      "adr_usd": 330.1143,
       "fx": 31.3708,
-      "adr_local": 2071.1904,
+      "adr_local": 2071.1902,
       "gap_pct": 19.0669
     },
     {
@@ -642,7 +634,7 @@
       "stock_local": 1759.3414,
       "adr_usd": 327.9811,
       "fx": 31.3617,
-      "adr_local": 2057.209,
+      "adr_local": 2057.2092,
       "gap_pct": 16.9306
     },
     {
@@ -664,17 +656,17 @@
     {
       "date": "2026-02-04",
       "stock_local": 1769.2531,
-      "adr_usd": 323.1987,
+      "adr_usd": 323.1988,
       "fx": 31.5732,
-      "adr_local": 2040.8836,
-      "gap_pct": 15.3528
+      "adr_local": 2040.8838,
+      "gap_pct": 15.3529
     },
     {
       "date": "2026-02-05",
       "stock_local": 1749.4294,
       "adr_usd": 328.1498,
       "fx": 31.6571,
-      "adr_local": 2077.6543,
+      "adr_local": 2077.6545,
       "gap_pct": 18.7618
     },
     {
@@ -690,7 +682,7 @@
       "stock_local": 1798.9884,
       "adr_usd": 352.6373,
       "fx": 31.575,
-      "adr_local": 2226.9044,
+      "adr_local": 2226.9046,
       "gap_pct": 23.7865
     },
     {
@@ -760,14 +752,14 @@
     {
       "date": "2026-02-20",
       "stock_local": 1898.1063,
-      "adr_usd": 367.6492,
+      "adr_usd": 367.6493,
       "fx": 31.579,
-      "adr_local": 2321.999,
+      "adr_local": 2321.9992,
       "gap_pct": 22.3324
     },
     {
       "date": "2026-02-23",
-      "stock_local": 1883.2386,
+      "stock_local": 1883.2385,
       "adr_usd": 367.1531,
       "fx": 31.511,
       "adr_local": 2313.8725,
@@ -775,18 +767,18 @@
     },
     {
       "date": "2026-02-24",
-      "stock_local": 1947.6652,
+      "stock_local": 1947.6653,
       "adr_usd": 382.7406,
       "fx": 31.4348,
-      "adr_local": 2406.2746,
+      "adr_local": 2406.2748,
       "gap_pct": 23.5466
     },
     {
       "date": "2026-02-25",
       "stock_local": 1997.2241,
-      "adr_usd": 384.7052,
+      "adr_usd": 384.7051,
       "fx": 31.3771,
-      "adr_local": 2414.1865,
+      "adr_local": 2414.1863,
       "gap_pct": 20.8771
     },
     {
@@ -802,20 +794,20 @@
       "stock_local": 1977.4005,
       "adr_usd": 371.6577,
       "fx": 31.2468,
-      "adr_local": 2322.6228,
+      "adr_local": 2322.6226,
       "gap_pct": 17.4584
     },
     {
       "date": "2026-03-02",
-      "stock_local": 1957.577,
-      "adr_usd": 366.2303,
+      "stock_local": 1957.5769,
+      "adr_usd": 366.2304,
       "fx": 31.375,
-      "adr_local": 2298.0954,
+      "adr_local": 2298.0956,
       "gap_pct": 17.3949
     },
     {
       "date": "2026-03-03",
-      "stock_local": 1917.9298,
+      "stock_local": 1917.9299,
       "adr_usd": 350.3751,
       "fx": 31.535,
       "adr_local": 2209.8155,
@@ -831,7 +823,7 @@
     },
     {
       "date": "2026-03-05",
-      "stock_local": 1883.2386,
+      "stock_local": 1883.2385,
       "adr_usd": 351.0993,
       "fx": 31.63,
       "adr_local": 2221.0543,
@@ -850,7 +842,7 @@
       "stock_local": 1794.0325,
       "adr_usd": 345.9796,
       "fx": 31.8023,
-      "adr_local": 2200.5897,
+      "adr_local": 2200.5895,
       "gap_pct": 22.6616
     },
     {
@@ -863,15 +855,15 @@
     },
     {
       "date": "2026-03-11",
-      "stock_local": 1922.8856,
+      "stock_local": 1922.8857,
       "adr_usd": 351.7939,
       "fx": 31.7739,
       "adr_local": 2235.5729,
-      "gap_pct": 16.2614
+      "gap_pct": 16.2613
     },
     {
       "date": "2026-03-12",
-      "stock_local": 1868.3708,
+      "stock_local": 1868.371,
       "adr_usd": 334.0832,
       "fx": 31.8115,
       "adr_local": 2125.5373,
@@ -2111,11 +2103,19 @@
     },
     {
       "date": "2026-10-15",
-      "stock_local": 2490.0,
-      "adr_usd": 430.0,
-      "fx": 32.182,
-      "adr_local": 2767.6519,
-      "gap_pct": 11.1507
+      "stock_local": 2440.0,
+      "adr_usd": 422.25,
+      "fx": 32.1899,
+      "adr_local": 2718.437,
+      "gap_pct": 11.4114
+    },
+    {
+      "date": "2026-10-16",
+      "stock_local": 2440.0,
+      "adr_usd": 422.25,
+      "fx": 32.324,
+      "adr_local": 2729.7619,
+      "gap_pct": 11.8755
     }
   ]
 }

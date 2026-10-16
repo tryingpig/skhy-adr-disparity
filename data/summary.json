@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15T09:47:02+09:00",
-  "as_of_date": "2026-10-15",
+  "updated_at": "2026-10-16T09:40:01+09:00",
+  "as_of_date": "2026-10-16",
   "zones": {
     "premium_hi": 3.0,
     "premium": 1.0,
@@ -20,24 +20,24 @@
       "ccy_decimals": 0,
       "market": "KOSPI",
       "note": "1 ADS = 보통주 1/10주 (SEC Form 424B4)",
-      "as_of_date": "2026-10-15",
+      "as_of_date": "2026-10-16",
       "current": {
-        "stock_local": 1287000.0,
-        "adr_usd": 157.06,
-        "fx": 1346.6801,
-        "adr_local": 2115095.6595,
-        "adr_fair_usd": 95.5684,
-        "gap_pct": 64.3431,
+        "stock_local": 1267000.0,
+        "adr_usd": 147.55,
+        "fx": 1344.6801,
+        "adr_local": 1984075.4603,
+        "adr_fair_usd": 94.2232,
+        "gap_pct": 56.5963,
         "zone": "premium_hi"
       },
       "stats": {
         "window": 60,
-        "mean": 38.12,
-        "std": 8.216,
-        "zscore": 3.19,
-        "percentile": 100.0,
+        "mean": 38.292,
+        "std": 8.028,
+        "zscore": 2.28,
+        "percentile": 98.3,
         "min": 14.851,
-        "max": 64.343
+        "max": 62.592
       }
     },
     {
@@ -52,22 +52,22 @@
       "ccy_decimals": 1,
       "market": "TWSE",
       "note": "1 ADR = 보통주 5주",
-      "as_of_date": "2026-10-15",
+      "as_of_date": "2026-10-16",
       "current": {
-        "stock_local": 2490.0,
-        "adr_usd": 430.0,
-        "fx": 32.182,
-        "adr_local": 2767.6519,
-        "adr_fair_usd": 386.8622,
-        "gap_pct": 11.1507,
+        "stock_local": 2440.0,
+        "adr_usd": 422.25,
+        "fx": 32.324,
+        "adr_local": 2729.7619,
+        "adr_fair_usd": 377.4285,
+        "gap_pct": 11.8755,
         "zone": "premium_hi"
       },
       "stats": {
         "window": 60,
-        "mean": 12.982,
-        "std": 2.899,
-        "zscore": -0.63,
-        "percentile": 33.3,
+        "mean": 13.002,
+        "std": 2.888,
+        "zscore": -0.39,
+        "percentile": 46.7,
         "min": 7.559,
         "max": 20.604
       }
