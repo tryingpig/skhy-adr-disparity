@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T09:52:15+09:00",
+  "updated_at": "2026-10-24T09:59:40+09:00",
   "as_of_date": "2026-10-23",
   "zones": {
     "premium_hi": 3.0,
@@ -22,22 +22,22 @@
       "note": "1 ADS = 보통주 1/10주 (SEC Form 424B4)",
       "as_of_date": "2026-10-23",
       "current": {
-        "stock_local": 1205000.0,
-        "adr_usd": 143.25,
-        "fx": 1322.48,
-        "adr_local": 1894452.572,
-        "adr_fair_usd": 91.1167,
-        "gap_pct": 57.216,
+        "stock_local": 1277000.0,
+        "adr_usd": 131.69,
+        "fx": 1323.66,
+        "adr_local": 1743127.9313,
+        "adr_fair_usd": 96.4749,
+        "gap_pct": 36.5018,
         "zone": "premium_hi"
       },
       "stats": {
         "window": 60,
-        "mean": 39.877,
-        "std": 6.563,
-        "zscore": 2.64,
-        "percentile": 100.0,
+        "mean": 39.323,
+        "std": 5.842,
+        "zscore": -0.48,
+        "percentile": 36.7,
         "min": 28.804,
-        "max": 57.216
+        "max": 55.065
       }
     },
     {
@@ -55,19 +55,19 @@
       "as_of_date": "2026-10-23",
       "current": {
         "stock_local": 2385.0,
-        "adr_usd": 431.89,
-        "fx": 32.596,
-        "adr_local": 2815.5774,
-        "adr_fair_usd": 365.8424,
-        "gap_pct": 18.0536,
+        "adr_usd": 412.35,
+        "fx": 32.57,
+        "adr_local": 2686.0479,
+        "adr_fair_usd": 366.1345,
+        "gap_pct": 12.6226,
         "zone": "premium_hi"
       },
       "stats": {
         "window": 60,
-        "mean": 13.327,
-        "std": 2.839,
-        "zscore": 1.66,
-        "percentile": 95.0,
+        "mean": 13.149,
+        "std": 2.728,
+        "zscore": -0.19,
+        "percentile": 48.3,
         "min": 7.559,
         "max": 20.604
       }
