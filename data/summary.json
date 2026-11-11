@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T13:15:58+09:00",
-  "as_of_date": "2026-11-10",
+  "updated_at": "2026-11-11T11:10:08+09:00",
+  "as_of_date": "2026-11-11",
   "zones": {
     "premium_hi": 3.0,
     "premium": 1.0,
@@ -20,22 +20,22 @@
       "ccy_decimals": 0,
       "market": "KOSPI",
       "note": "1 ADS = 보통주 1/10주 (SEC Form 424B4)",
-      "as_of_date": "2026-11-10",
+      "as_of_date": "2026-11-11",
       "current": {
-        "stock_local": 1199000.0,
+        "stock_local": 1251000.0,
         "adr_usd": 134.38,
-        "fx": 1344.38,
-        "adr_local": 1806577.9162,
-        "adr_fair_usd": 89.1861,
-        "gap_pct": 50.6737,
+        "fx": 1336.88,
+        "adr_local": 1796499.4158,
+        "adr_fair_usd": 93.5761,
+        "gap_pct": 43.6051,
         "zone": "premium_hi"
       },
       "stats": {
         "window": 60,
-        "mean": 40.552,
-        "std": 6.586,
-        "zscore": 1.54,
-        "percentile": 93.3,
+        "mean": 40.465,
+        "std": 6.502,
+        "zscore": 0.48,
+        "percentile": 71.7,
         "min": 28.804,
         "max": 61.197
       }
@@ -52,22 +52,22 @@
       "ccy_decimals": 1,
       "market": "TWSE",
       "note": "1 ADR = 보통주 5주",
-      "as_of_date": "2026-11-10",
+      "as_of_date": "2026-11-11",
       "current": {
-        "stock_local": 2245.0,
-        "adr_usd": 388.62,
-        "fx": 32.867,
-        "adr_local": 2554.5547,
-        "adr_fair_usd": 341.528,
-        "gap_pct": 13.7886,
+        "stock_local": 2340.0,
+        "adr_usd": 396.48,
+        "fx": 32.852,
+        "adr_local": 2605.0324,
+        "adr_fair_usd": 356.1427,
+        "gap_pct": 11.3262,
         "zone": "premium_hi"
       },
       "stats": {
         "window": 60,
-        "mean": 13.271,
-        "std": 3.134,
-        "zscore": 0.17,
-        "percentile": 58.3,
+        "mean": 13.263,
+        "std": 3.138,
+        "zscore": -0.62,
+        "percentile": 30.0,
         "min": 3.475,
         "max": 20.604
       }
