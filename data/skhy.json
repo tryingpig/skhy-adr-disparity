@@ -10,8 +10,8 @@
   "ccy_decimals": 0,
   "market": "KOSPI",
   "note": "1 ADS = 보통주 1/10주 (SEC Form 424B4)",
-  "updated_at": "2026-11-21T12:24:28+09:00",
-  "as_of_date": "2026-11-20",
+  "updated_at": "2026-11-24T15:18:48+09:00",
+  "as_of_date": "2026-11-24",
   "zones": {
     "premium_hi": 3.0,
     "premium": 1.0,
@@ -19,20 +19,20 @@
     "discount_hi": -3.0
   },
   "current": {
-    "stock_local": 1113000.0,
-    "adr_usd": 103.57,
-    "fx": 1334.79,
-    "adr_local": 1382442.0394,
-    "adr_fair_usd": 83.3839,
-    "gap_pct": 24.2086,
+    "stock_local": 1173000.0,
+    "adr_usd": 124.28,
+    "fx": 1342.4399,
+    "adr_local": 1668384.3428,
+    "adr_fair_usd": 87.3782,
+    "gap_pct": 42.2323,
     "zone": "premium_hi"
   },
   "stats": {
     "window": 60,
-    "mean": 41.612,
-    "std": 6.199,
-    "zscore": -2.81,
-    "percentile": 1.7,
+    "mean": 42.13,
+    "std": 6.143,
+    "zscore": 0.02,
+    "percentile": 50.0,
     "min": 24.209,
     "max": 61.197
   },
@@ -804,6 +804,22 @@
       "fx": 1334.79,
       "adr_local": 1382442.0394,
       "gap_pct": 24.2086
+    },
+    {
+      "date": "2026-11-23",
+      "stock_local": 1085000.0,
+      "adr_usd": 124.28,
+      "fx": 1344.3101,
+      "adr_local": 1670708.5244,
+      "gap_pct": 53.9824
+    },
+    {
+      "date": "2026-11-24",
+      "stock_local": 1173000.0,
+      "adr_usd": 124.28,
+      "fx": 1342.4399,
+      "adr_local": 1668384.3428,
+      "gap_pct": 42.2323
     }
   ]
 }
